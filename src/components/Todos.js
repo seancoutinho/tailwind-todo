@@ -16,11 +16,11 @@ export default function Todos() {
               rows={2}
               placeholder="Write your text"
             ></textarea>
-            <span>
+            <span className="cursor: pointer hover: text-slate-300">
               <BsEmojiSmile />
             </span>
           </div>
-          <button>
+          <button className="flex items-center capitalize gap-2 bg-yellow-200 text-black py-1.5 px-3 hover: bg-yellow-100 rounded">
             <AiOutlinePlus />
             Add
           </button>
